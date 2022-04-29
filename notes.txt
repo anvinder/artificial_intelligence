@@ -1,0 +1,2 @@
+Goal:
+- Train images based on yolo5 for traffic signs. Goal is to train it on my own dataset and check the efficiency to show real traffic data. 
