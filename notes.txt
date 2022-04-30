@@ -1,2 +1,7 @@
 Goal:
 - Train images based on yolo5 for traffic signs. Goal is to train it on my own dataset and check the efficiency to show real traffic data. 
+
+Steps in using Yolov5
+- Get the dataset(public.roboflow.ai)
+- Annotate the iamges (CVAT, labelImg, VOTT). The annotations can be in coco json, tensorflow, object csv, VOL csv, labelImg, VAT, labelbox. 
+- Create YAML for training
