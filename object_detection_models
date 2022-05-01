@@ -1,0 +1,5 @@
+For object detection following are some of the models:
+- R-CNN, Fast R-CNN, and Faster-RCNN
+- YOLO model family, latest being v5. 
+
+Diffrences between RCNN and YOLO are as follows: 
