@@ -1,6 +1,13 @@
 Object detection is a supervised machine learning problem
 For object detection following are some of the models:
-- R-CNN, Fast R-CNN, and Faster-RCNN
-- YOLO model family, latest being v5. 
+1| Fast R-CNN
+2| Faster R-CNN
+3| Histogram of Oriented Gradients (HOG)
+4| Region-based Convolutional Neural Networks (R-CNN)
+5| Region-based Fully Convolutional Network (R-FCN)
+6| Single Shot Detector (SSD)
+7| Spatial Pyramid Pooling (SPP-net)
+8| YOLO (You Only Look Once)
+Link to above models' basic information: https://analyticsindiamag.com/top-8-algorithms-for-object-detection/
 
 Differences between RCNN and YOLO are as follows: 
