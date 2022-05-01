@@ -1,5 +1,6 @@
+Object detection is a supervised machine learning problem
 For object detection following are some of the models:
 - R-CNN, Fast R-CNN, and Faster-RCNN
 - YOLO model family, latest being v5. 
 
-Diffrences between RCNN and YOLO are as follows: 
+Differences between RCNN and YOLO are as follows: 
