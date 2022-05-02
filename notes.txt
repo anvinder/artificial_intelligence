@@ -5,17 +5,16 @@ Steps in using Yolov5
 - Get the dataset
     - public.roboflow.ai
     - openimg dataset
-- Annotate the iamges (CVAT, labelImg, VOTT) (To create bounding box). The annotations can be in coco json, tensorflow, object csv, VOL csv, labelImg, VAT, labelbox. 
+- Annotate the iamges (CVAT, labelImg, VOTT) (To create bounding box). The annotations can be in coco json, tensorflow, pascal VOC, YOLO. 
 - Annotate using 
     - CVAT
     - Labelimg
     - VOTT
+    - Annotation can be of the following types: Bounding box, polygon segmentation, semantic segmentation, 3D cuboids, Key-Point and Landmark, Lines and        Splines (link: https://towardsdatascience.com/image-data-labelling-and-annotation-everything-you-need-to-know-86ede6c684b1)
 - Convert annotations to coco format
 - Create YAML for training
 - YoloV5 training
 - YoloV5 Inference
-
-
 
 
 
