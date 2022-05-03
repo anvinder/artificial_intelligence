@@ -11,8 +11,14 @@ Steps in using Yolov5
     - Labelimg
     - VOTT
     - Annotation can be of the following types: Bounding box, polygon segmentation, semantic segmentation, 3D cuboids, Key-Point and Landmark, Lines and        Splines (link: https://towardsdatascience.com/image-data-labelling-and-annotation-everything-you-need-to-know-86ede6c684b1)
-- Convert annotations to coco format
-- Create YAML for training
+- Convert annotations to coco format ( no need to do this if you use labeImg.exe coz that can create direct yolo based txt files)
+- Create YAML for training (No need for this): https://www.analyticsvidhya.com/blog/2021/08/train-your-own-yolov5-object-detection-model/: 
+    Once dependencies are installed and data is ready now we need to configure a YAML file to train the model. For that, you open any text editor and create a file            “coco.yml” inside the folder “YoloV5/data/”. The content of the file would be like this:
+        # train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+        train: /Users/gouravbais/yolov5/coco/images/train2017
+        val: /Users/gouravbais/yolov5/coco/images/val2017
+
+
 - YoloV5 training
 - YoloV5 Inference
 
