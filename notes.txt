@@ -30,3 +30,4 @@ https://www.analyticsvidhya.com/blog/2021/08/train-your-own-yolov5-object-detect
 Difference between keras, pytorch, tensorflow: https://www.simplilearn.com/keras-vs-tensorflow-vs-pytorch-article
 
 YOLOv5 directory: https://github.com/ultralytics/yolov5
+
