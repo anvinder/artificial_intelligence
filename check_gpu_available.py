@@ -9,7 +9,7 @@ print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
 
 import torch
 # print(torch.zeros(1).cuda())
-print(torch.device("cuda"))
-print(torch.__version__)           # 1.9.0
-print(torch.version.cuda)           # 11.1
+# print(torch.device("cuda"))
+print(torch.__version__)         
+print(torch.version.cuda)           
 print(torch.cuda.is_available())
