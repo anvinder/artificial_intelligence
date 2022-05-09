@@ -119,3 +119,4 @@ class OD:
 
 detector = OD(capture_index=0, model_name=r'C:\Users\anvin\PycharmProjects\ML\yolov5\weights\best.pt')
 detector()
+
