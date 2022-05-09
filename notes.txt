@@ -22,6 +22,17 @@ Steps in using Yolov5
 - YoloV5 training: Use this command from the terminal: python train.py --img 416 --batch 12 --epochs 50 --data ./data/coco.yml --weights ./weights/yolov5x.pt
 - YoloV5 Inference: use this command: python detect.py --img 416 --source ./detect/test_data --weights ./weights/best.pt --conf-thres 0.4
 
+- After yolo inference use the atatched python script (live_display_trained_model) to detect live object detection in the video. 
+    - In order to run it you'd need the following libraries. 
+    These are the versions i have:
+        - torch: 1.11.0
+        - torchvision: 0.11
+        - torchaudio: 0.10
+        - CUDA version: 11.3
+        - GPU driver version: 512.59
+        - python version : 3.8
+        - tensorflow:2.8.0
+    This is the command i used : pip install torch torchvision==0.11.2+cu113 torchaudio===0.10.1+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
 
 
 Links: 
@@ -30,6 +41,3 @@ https://www.analyticsvidhya.com/blog/2021/08/train-your-own-yolov5-object-detect
 Difference between keras, pytorch, tensorflow: https://www.simplilearn.com/keras-vs-tensorflow-vs-pytorch-article
 
 YOLOv5 directory: https://github.com/ultralytics/yolov5
-
-
-
