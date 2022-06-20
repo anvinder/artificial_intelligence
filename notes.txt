@@ -43,3 +43,4 @@ Difference between keras, pytorch, tensorflow: https://www.simplilearn.com/keras
 YOLOv5 directory: https://github.com/ultralytics/yolov5
 Good resource for OCR detection (standalone tool): https://github.com/diewland/text-detection-opencv-east
 
+
